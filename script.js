@@ -82,7 +82,7 @@ equals.addEventListener ('click', function(event) {
         }
     }
     console.log(result);
-    output.textContent += result.toFixed(5);
+    output.textContent += Number(result.toFixed(5));
     a=[[]]; 
     str = result.toString(); 
     a[0] = str.split('');
