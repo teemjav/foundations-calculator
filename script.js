@@ -94,7 +94,7 @@ equals.addEventListener ('click', function(event) {
 
 clear.addEventListener ('click', function(event) {
     a=[[]];
-    currentIndex=1;
+    currentIndex=0;
     operatorStore=[[]];
     operatorIndex=0;
     output.textContent="";
